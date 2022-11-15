@@ -1,0 +1,23 @@
+.container,
+.main,
+.nav {
+    background-color: blanchedalmond;
+    height: 15vh;
+    margin: auto;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: -1;
+}
+
+ul,
+li,
+a {
+    min-width: 25%;
+    text-decoration: none;
+    list-style: none;
+    display: inline-flex;
+    text-indent: 100px;
+    margin-top: 1.5%;
+    z-index: 1;
+}
